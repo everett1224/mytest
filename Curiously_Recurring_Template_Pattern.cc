@@ -1,6 +1,6 @@
 ////
 //this is Curiously_Recurring_Template_Pattern test
-// Q1: static_cast synatx : static_cast<type>(expression)
+// Q1: static_cast syntax : static_cast<type>(expression)
 // Q2: keyword "this" in different scope means different type
 // n3376 9.3.2/1
 // In the body of a non-static (9.3) member function, the keyword this is a prvalue expression whose value is the address of the object for which the function is called.
