@@ -6,7 +6,7 @@ void foo(int ii)
 }
 
 void test(int);
-void (*ffff)(int jj)= test
+void (*ffff(int jj))
 {
 	printf("the jj is %d\n",jj);
 }
@@ -18,7 +18,7 @@ int main()
 	printf("the foo is %p\n", foo);
 	printf("the *foo is %p\n", *foo);
 	printf("the &foo is %p\n", &foo);
-	printf("the &&foo is %p\n", &(&foo));
+//	printf("the &&foo is %p\n", (&foo));
 	printf("the *foo is %p\n", **foo);
 	foo(10);
 	fuck = foo;
@@ -32,5 +32,5 @@ int main()
 	printf("the sizeof b is %d\n", sizeof(b));
 	printf("ittt %d\n", sizeof(long));
 	printf("the a addr is %d\n", sizeof(&a));
-	printf("the &&a is %p\n", &&a);
+//	printf("the &&a is %p\n", &a);
 }
